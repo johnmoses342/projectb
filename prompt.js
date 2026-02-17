@@ -25,11 +25,12 @@ var request = 'empty'
 
 if (start === 'y') {
     while(request !== 'quit') {
-        request = prompt("Pleas choose an opton: add,display,remove and quit.")
+        request = prompt("Please choose an opton: add,display,remove and quit.")
         if (request === 'add') {
             addNew();
         }else if (request === 'display') {
             display();
+            alert("check your console");
         }else if (request === 'remove') {
             remove();
         }else {
@@ -39,3 +40,4 @@ if (start === 'y') {
     }
 }
 alert("Thank you for applying");
+
