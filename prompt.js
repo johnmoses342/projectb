@@ -9,6 +9,7 @@ function addNew() {
 //display
 function display() {
     console.log(roster);
+    alert("quit and check your console for the added name in  your array");
 }
 
 //remove
@@ -40,4 +41,5 @@ if (start === 'y') {
     }
 }
 alert("Thank you for applying");
+
 
